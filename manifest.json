@@ -3,7 +3,7 @@
   "name": "Tab Duplicate",
   "version": "1.0.0",
   "minAppVersion": "1.0.0",
-  "description": "Adds a 'Duplicate file' option to the tab right-click context menu.",
+  "description": "Duplicate a file from the tab or file-explorer right-click menu. Creates a -copy file next to the original and opens it.",
   "author": "antars",
   "isDesktopOnly": true
 }
