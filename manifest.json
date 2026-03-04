@@ -1,0 +1,9 @@
+{
+  "id": "tab-duplicate",
+  "name": "Tab Duplicate",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Adds a 'Duplicate file' option to the tab right-click context menu.",
+  "author": "antars",
+  "isDesktopOnly": true
+}
