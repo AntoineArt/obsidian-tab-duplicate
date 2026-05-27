@@ -1,4 +1,4 @@
-# Obsidian Tab Duplicate
+# Tab Duplicate
 
 Duplicate a Markdown file from the tab header menu or the file explorer context menu.
 

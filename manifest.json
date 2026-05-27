@@ -1,7 +1,7 @@
 {
   "id": "tab-duplicate",
   "name": "Tab Duplicate",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "minAppVersion": "1.8.0",
   "description": "Duplicate a file from the tab or file explorer right-click menu. Creates a copy next to the original and opens it.",
   "author": "AntoineArt",
