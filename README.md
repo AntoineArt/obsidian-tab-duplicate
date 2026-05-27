@@ -31,11 +31,14 @@ Right-click any tab or file and choose **Duplicate file**. A copy is created nex
 
 Community plugins are submitted through the [Obsidian Community developer dashboard](https://community.obsidian.md), not via pull requests to `obsidian-releases`.
 
-Before submitting or releasing:
+Release flow:
 
-1. Validate locally with `npm run lint`
-2. Create a GitHub release whose tag matches `manifest.json`
-3. Attach `main.js` and `manifest.json` to the release
+1. Update `version` in `manifest.json` and `package.json`
+2. Commit and push to `main`
+3. Create and push a matching tag: `git tag 1.x.x && git push origin 1.x.x`
+4. GitHub Actions builds, attests, and publishes the release assets
+
+Before tagging, run `npm run lint` locally.
 
 ## License
 
